@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDumper", "DataDumper\DataDumper.csproj", "{CACBDB54-CB7F-4ED1-8607-26B137C72DF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CACBDB54-CB7F-4ED1-8607-26B137C72DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CACBDB54-CB7F-4ED1-8607-26B137C72DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CACBDB54-CB7F-4ED1-8607-26B137C72DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CACBDB54-CB7F-4ED1-8607-26B137C72DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5282DD72-066F-41B5-95FA-C09FF8736763}
+	EndGlobalSection
+EndGlobal
