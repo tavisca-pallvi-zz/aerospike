@@ -32,6 +32,7 @@ namespace HotelWebApp.Controllers
 
         public List<Record> GetMultipleData([FromBody]JObject jsonFormatInput)
         {
+            Connect();
             List<Record> output = new List<Record>();
             for (int i = 1; i <= jsonFormatInput.Count; i++)
             {
@@ -57,6 +58,7 @@ namespace HotelWebApp.Controllers
         [System.Web.Http.Route("put/{id}")]
         public void UpdateDataByID(long id, [FromBody]string updatedYear)
         {
+            Connect();
             Bin newBin = new Bin("year", updatedYear);
             var key = new Key(nameSpace, setName, id.ToString());
             try
@@ -73,6 +75,7 @@ namespace HotelWebApp.Controllers
         [Route("delete/{id}")]
         public void DeleteData(long id)
         {
+            Connect();
             var key = new Key(nameSpace, setName, id.ToString());
             try
             {
